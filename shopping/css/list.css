@@ -1,0 +1,142 @@
+/*列表模块**/
+.nav {
+    overflow: hidden;
+}
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 185px;
+    height: 34px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 13px;
+}
+.sk_list {
+    float: left;
+}
+.sk_list ul li {
+    float: left;
+}
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.sk_con {
+    float: left;
+}
+.sk_con ul li {
+    float: left;
+}
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.sk_con ul li:last-child a::after {
+    font-family: 'icomoon';
+    content: '\e91e';
+}
+.sk_bd {
+    margin-top: 25px;
+}
+.sk_bd ul li {
+    float: left;
+    width: 288px;
+    height: 400px;
+    margin-right: 16px;
+    background-color: #fff;
+    border: 1px solid #ededed;
+    border-radius: 10px; 
+}
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+.sk_bd ul li:hover {
+    border: 1px solid #b1191a;
+}
+.apple11_pic {
+    width: 200px;
+    height: 200px;
+    margin: 0 50px 0 50px;
+    /* background-color: skyblue; */
+}
+
+.apple11_pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.sk_bd h4 {
+    padding: 30px 10px 20px 10px;
+    color: grey;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sk_bd a {
+    display: block;
+    height: 40px;
+    margin: 0 10px 0 10px;
+    background-color: #b1191a;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+}
+
+.sk_bd .price {
+    margin-left: 10px;
+}
+
+.sk_bd .price::before {
+    content: '￥6088';
+    color: red;
+    font-size: 20px;
+}
+
+.sk_bd .price::after {
+    content: '￥6988';
+    color: grey;
+    text-decoration: line-through;
+    font-size: 14px;
+}
+
+.balance {
+    margin: 5px 10px 5px 10px;
+}
+
+.balance span {
+    float: left;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.balance span em {
+    color: red;
+}
+
+.bar {
+    overflow: hidden;
+    float: left;
+    width: 157px;
+    height: 14px;
+    margin: 0 4px 0 4px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.bar_in {
+    width: 87%;
+    height: 12px;
+    background-color: #ed282e;
+    transition: width .3s;
+}
+
+.bar:hover .bar_in {
+    width: 100%;
+}
+
+
